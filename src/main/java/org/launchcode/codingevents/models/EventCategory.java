@@ -1,7 +1,10 @@
 package org.launchcode.codingevents.models;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.OneToMany;
 import jakarta.validation.constraints.Size;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Chris Bay
